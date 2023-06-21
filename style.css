@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+#clock {
+    height:20vh;
+    width: 50vh;
+    /* background-color: #14080e; */
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    position: absolute;
+    top:35vh;
+    left: 80vh;
+    border: 5px solid green;
+
+    
+}
+@media screen and (max-width: 1000px) {
+#clock {
+position: absolute;
+    left: 20vh;
+}
+}
